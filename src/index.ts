@@ -1,12 +1,12 @@
 // Export components
-export * from './components/Button.tsx';
-export * from './components/Dialog.tsx';
-export * from './components/DropdownMenu.tsx';
-export * from './components/Toast.tsx';
-export * from './components/Toaster.tsx';
+export * from './components/Button';
+export * from './components/Dialog';
+export * from './components/DropdownMenu';
+export * from './components/Toast';
+export * from './components/Toaster';
 
 // Export hooks
-export * from './hooks/useToast.ts';
+export * from './hooks/useToast';
 
 // Export styles
 export * from './styles/globals.css';

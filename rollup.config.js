@@ -22,6 +22,7 @@ export default {
   external: [
     'react',
     'react-dom',
+    'react/jsx-runtime',
     '@radix-ui/react-icons',
     '@radix-ui/react-slot',
     '@radix-ui/react-dialog',
