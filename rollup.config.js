@@ -44,6 +44,10 @@ export default {
       },
       extensions: ['.css'],
       minimize: true,
+      extract: false,
+      modules: {
+        generateScopedName: '[name]__[local]___[hash:base64:5]',
+      },
       inject: {
         insertAt: 'top',
       },

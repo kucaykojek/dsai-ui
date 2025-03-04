@@ -1,0 +1,26 @@
+# Source
+src/
+*.ts
+*.tsx
+
+# Config files
+.eslintrc
+.prettierrc
+tsconfig.json
+rollup.config.js
+postcss.config.js
+tailwind.config.ts
+
+# Development
+.github/
+.vscode/
+.idea/
+*.log
+coverage/
+test/
+
+# Misc
+.gitignore
+.npmignore
+README.md
+CHANGELOG.md
